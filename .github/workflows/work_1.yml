@@ -3,6 +3,10 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
+    container: node:16
     steps:
+    - run: node --version
     - name: Print Something
-      run: echo "Hello"
+      run: echo "Renata Tejeda Mercado"
+    - name: Print Something 2
+      run: echo "739500"
